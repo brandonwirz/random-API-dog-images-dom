@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+ form, label {
+  text-align:center;
+  display: block;
+  margin-top: 20px;
+}
+#input-num {
+    padding: 5px;
+    width: 70px;
+    font-size: .85rem;
+}
+.submit {
+  margin: 25px 0;
+  background: rgb(28, 82, 222);
+  color: white;
+  padding:5px 10px;
+  cursor: pointer;
+}
+.loadedImages {
+  display: block;
+  margin: 20px auto;
+  width: 300px;
+  border: black 1px solid;
+}
+.hidden {
+  display: none;
+}
